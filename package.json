@@ -1,0 +1,28 @@
+{
+  "name": "js-tdd-es6",
+  "version": "1.0.0",
+  "description": "JavaScript: Test-Driven Development (ES6)",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha \"src/**/*.test.js\" --recursive --require @babel/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fiat2Co/js-tdd-es6.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fiat2Co/js-tdd-es6/issues"
+  },
+  "homepage": "https://github.com/Fiat2Co/js-tdd-es6#readme",
+  "devDependencies": {
+    "@babel/core": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/register": "^7.18.9",
+    "chai": "^4.3.7",
+    "lodash": "^4.17.21",
+    "mocha": "^10.2.0"
+  }
+}
